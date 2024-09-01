@@ -2,8 +2,7 @@ gui:
   theme:
     lightTheme: false
     activeBorderColor:
-      - "#50FA7B" # Green
-      - bold
+      - "#FF79C6" # Pink
     inactiveBorderColor:
       - "#BD93F9" # Text
     optionsTextColor:
@@ -19,4 +18,4 @@ gui:
     unstagedChangesColor:
       - "#FF5555" # Red
     defaultFgColor:
-      - "#F8F8F2e" # White
+      - "#F8F8F2" # White
