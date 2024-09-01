@@ -1,1 +1,3 @@
 EXCLUDES="Brewfile Brewfile.lock.json"
+SYMLINK_DIRS=""
+UNDOTTED=""
