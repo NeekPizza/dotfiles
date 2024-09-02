@@ -96,6 +96,7 @@ sourceFileInConfig () {
 }
 
 sourceFileInConfig rcfiles
+export DISABLE_AUTO_TITLE="true"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -121,7 +122,6 @@ sourceFileInConfig rcfiles
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="vi ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
