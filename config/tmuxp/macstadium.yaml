@@ -1,0 +1,26 @@
+session_name: MacStadium
+start_directory: "~/MacStadium/monorepo-dev/packages/"
+windows:
+  - window_name: macstadium-graphql-api
+    start_directory: macstadium-graphql-api
+    panes:
+      - shell_command:
+          - cmd: "docker compose -f ../macstadium-db-migrations/docker-compose.ci.yml up -d db"
+          - cmd: "npm start"
+  - window_name: macstadium-admin
+    start_directory: macstadium-admin
+    panes:
+      - shell_command:
+          - cmd: "docker compose up"
+  - window_name: portal-frontend
+    start_directory: portal-frontend
+    panes:
+      - shell_command:
+          - cmd: "npm run start:mock"
+  - window_name: Term
+    start_directory: portal-frontend
+    focus: true
+    panes:
+      - shell_command:
+          - cmd: "clear"
+          - cmd: "n"
