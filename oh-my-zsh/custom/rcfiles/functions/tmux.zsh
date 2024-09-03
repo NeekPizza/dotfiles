@@ -69,7 +69,8 @@ function tm() {
                     tmuxp load -d "$config_path"
                 fi
             done
-            tmux attach -t Dotfiles
+             # tmux attach -t Dotfiles
+             tm a
         else
             echo "No valid YAML files found in '$CONFIG_DIR' or start directories do not exist."
         fi
